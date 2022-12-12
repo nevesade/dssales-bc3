@@ -1,13 +1,17 @@
 import SalesSummaryCard from './sales-summary-card';
 import './styles.css';
+import { ReactComponent as AvatarIcon } from '../../assets/avatar-icon.svg';
+import { ReactComponent as BarIcon } from '../../assets/bar-icon.svg';
+import { ReactComponent as DoneIcon } from '../../assets/done-icon.svg';
+import { ReactComponent as SyncIcon } from '../../assets/sync-icon.svg';
 
 function SalesSummary() {
   return (
     <div className="sales-summary-container">
-      <SalesSummaryCard />
-      <SalesSummaryCard />
-      <SalesSummaryCard />
-      <SalesSummaryCard />
+      <SalesSummaryCard value={430} label="Média" icon={<DoneIcon />} />
+      <SalesSummaryCard value={730} label="Quatidade" icon={<SyncIcon />} />
+      <SalesSummaryCard value={130} label="Mínima" icon={<BarIcon />} />
+      <SalesSummaryCard value={330} label="Máxima" icon={<AvatarIcon />} />
     </div>
   );
 }
