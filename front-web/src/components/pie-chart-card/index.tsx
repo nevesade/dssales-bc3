@@ -1,7 +1,6 @@
 import ReactApexChart from 'react-apexcharts';
 import './styles.css';
 import { buildPieChartConfig } from './helpers';
-import { type } from 'os';
 
 type Props = {
   labels: string[];

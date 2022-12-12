@@ -26,6 +26,69 @@ function SalesTable() {
             <td>Crédito</td>
             <td>R$ 450,000.00</td>
           </tr>
+          <tr>
+            <td>#341</td>
+            <td>07/11/2017</td>
+            <td>Masculino</td>
+            <td>Roupas e acessórios </td>
+            <td>Uberlândia</td>
+            <td>Crédito</td>
+            <td>R$ 450,000.00</td>
+          </tr>
+          <tr>
+            <td>#341</td>
+            <td>07/11/2017</td>
+            <td>Masculino</td>
+            <td>Roupas e acessórios </td>
+            <td>Uberlândia</td>
+            <td>Crédito</td>
+            <td>R$ 450,000.00</td>
+          </tr>
+          <tr>
+            <td>#341</td>
+            <td>07/11/2017</td>
+            <td>Masculino</td>
+            <td>Roupas e acessórios </td>
+            <td>Uberlândia</td>
+            <td>Crédito</td>
+            <td>R$ 450,000.00</td>
+          </tr>
+          <tr>
+            <td>#341</td>
+            <td>07/11/2017</td>
+            <td>Masculino</td>
+            <td>Roupas e acessórios </td>
+            <td>Uberlândia</td>
+            <td>Crédito</td>
+            <td>R$ 450,000.00</td>
+          </tr>
+          <tr>
+            <td>#341</td>
+            <td>07/11/2017</td>
+            <td>Masculino</td>
+            <td>Roupas e acessórios </td>
+            <td>Uberlândia</td>
+            <td>Crédito</td>
+            <td>R$ 450,000.00</td>
+          </tr>
+          <tr>
+            <td>#341</td>
+            <td>07/11/2017</td>
+            <td>Masculino</td>
+            <td>Roupas e acessórios </td>
+            <td>Uberlândia</td>
+            <td>Crédito</td>
+            <td>R$ 450,000.00</td>
+          </tr>
+          <tr>
+            <td>#341</td>
+            <td>07/11/2017</td>
+            <td>Masculino</td>
+            <td>Roupas e acessórios </td>
+            <td>Uberlândia</td>
+            <td>Crédito</td>
+            <td>R$ 450,000.00</td>
+          </tr>
         </tbody>
       </table>
     </div>
