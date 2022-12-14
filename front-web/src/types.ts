@@ -1,4 +1,9 @@
 export type SalesByDate = {
-  datete: string;
+  date: string;
   sum: number;
+};
+
+export type ChartSeriesData = {
+  x: string;
+  y: number;
 };
