@@ -1304,3 +1304,18 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-12 20:06:01.482
 !MESSAGE executing callback sts4.classpath.reaaHBCf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-14 23:29:34.379
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.reaaHBCf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-14 23:29:34.382
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.reaaHBCf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-14 23:29:34.383
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-14 23:29:34.384
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.reaaHBCf => OK
+
+!ENTRY org.eclipse.ui 2 2 2022-12-14 23:29:40.593
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
