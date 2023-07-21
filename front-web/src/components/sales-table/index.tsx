@@ -8,9 +8,16 @@ type Props = {
   filterData?: FilterData;
 };
 
+const extraParams = {
+  page: 0,
+  size: 12,
+  sort: 'date,desc'
+};
+
 function SalesTable({ filterData }: Props) {
   const [sales, setSales] = useState<Sale[]>([]);
-  const params = useMemo(() => buildFilterParams(filterData), [filterData]);
+
+  const params = useMemo(() => buildFilterParams(filterData, extraParams), [filterData]);
 
   useEffect(() => {
     makeRequest
@@ -41,7 +48,7 @@ function SalesTable({ filterData }: Props) {
       <table className="sales-table">
         <thead>
           <tr>
-            <th>ID</th>
+            <th> ID</th>
             <th>Data</th>
             <th>Gênero</th>
             <th>Categoria</th>

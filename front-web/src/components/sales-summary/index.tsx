@@ -33,7 +33,7 @@ function SalesSummary({ filterData }: Props) {
         console.log(response.data);
       })
       .catch(() => {
-        console.error('Error to fetch sales by date');
+        console.error('Error to fetch sales summary');
       });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [params]);
