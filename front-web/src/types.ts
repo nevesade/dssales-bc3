@@ -37,3 +37,18 @@ export type SalesByPaymentMethod = {
   description: string;
   sum: number;
 };
+
+export type SalesResponse = {
+  content: Sale[];
+};
+
+export type Sale = {
+  id: number;
+  date: string;
+  volume: number;
+  total: number;
+  gender: Gender;
+  categoryName: string;
+  paymentMethod: string;
+  storeName: string;
+};

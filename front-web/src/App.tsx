@@ -31,7 +31,7 @@ function App() {
         setSalesByStore(newSalesByStore);
       })
       .catch(() => {
-        console.error('Error to fetch sales by date');
+        console.error('Error to fetch sales by store');
       });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [params]);
@@ -44,7 +44,7 @@ function App() {
         setSalesByPaymentMethod(newSalesByPaymentMethod);
       })
       .catch(() => {
-        console.error('Error to fetch sales by date');
+        console.error('Error to fetch sales by payment method');
       });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [params]);
@@ -68,7 +68,7 @@ function App() {
             series={salesByPaymentMethod?.series}
           />
         </div>
-        <SalesTable />
+        <SalesTable filterData={filterData} />
       </div>
     </>
   );
